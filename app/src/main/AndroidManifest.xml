@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="indiqueeganhe2019.com.indiqueeganhemobileag">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginAppActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:name=".activity.MeusAnunciosActivity"
+            android:label="@string/title_activity_meus_anuncios"
+            android:parentActivityName=".activity.AnunciosActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="indiqueeganhe2019.com.indiqueeganhemobileag.activity.AnunciosActivity" />
+        </activity>
+        <activity
+            android:name=".activity.CadastrarAnuncioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AnunciosActivity"
+            android:parentActivityName=".activity.HomeDaAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MeusAnunciosActivity"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DetalhesProdutoActivity"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AdminActivity"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QuemSomosActivity"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeDaAdminActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.RelatorioActivity"
+            android:parentActivityName=".activity.HomeDaAdminActivity" />
+        <activity android:name=".activity.DetalhesRelatorioActivity" />
+        <activity android:name=".activity.CadastroUsuarioActivity"
+            android:parentActivityName=".activity.LoginAppActivity"/>
+        <activity android:name=".PoliticaPrivacidadeActivity"></activity>
+    </application>
+
+</manifest>

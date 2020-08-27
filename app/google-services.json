@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "406758252269",
+    "firebase_url": "https://indiqueeganhe2019-8e2a3.firebaseio.com",
+    "project_id": "indiqueeganhe2019-8e2a3",
+    "storage_bucket": "indiqueeganhe2019-8e2a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406758252269:android:d9e3d756b5becabf",
+        "android_client_info": {
+          "package_name": "indiqueeganhe2019.com.indiqueeganhemobileag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406758252269-28kg30msfuvfli84159n0vl99jeg2oih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "indiqueeganhe2019.com.indiqueeganhemobileag",
+            "certificate_hash": "440cab4cb5dd3d10aabf889820e8cb2a877eea0b"
+          }
+        },
+        {
+          "client_id": "406758252269-h09b9e4jjnhcq31o08bs4ollu9v13a06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLgJnPUA1VyZTNa_TG1zarPiqQ5SS9oCo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406758252269-h09b9e4jjnhcq31o08bs4ollu9v13a06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

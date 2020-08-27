@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group_logado" android:visible="true">
+        <item android:id="@+id/menu_minhas_indicacoes"
+            android:title="Meus Leads Indicados"/>
+
+        <item android:id="@+id/menu_indicar"
+            android:title="Indicar Agora"/>
+
+        <item android:id="@+id/menu_quem_somos"
+            android:title="Quem Somos "/>
+
+
+
+        <item android:id="@+id/menu_adimin"
+            android:title="Admin"/>
+
+        <item android:id="@+id/menu_sair"
+            android:title="Sair"/>
+
+
+
+        <item android:id="@+id/menu_contato"
+            android:title="Política de privacidade"/>
+
+    </group>
+
+
+
+
+</menu>

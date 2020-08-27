@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Indique e Ganhe</string>
+    <string name="title_activity_meus_anuncios">MeusAnunciosActivity</string>
+
+    <string-array name="estados">
+
+        <item>MULTISOM</item>
+        <item>CASAS BAHIA</item>
+        <item>MAGAZINE LUIZA</item>
+        <item>ANGELONI</item>
+        <item>GIASSI</item>
+        <item>LOJAS KOERICH</item>
+        <item>CASSOL</item>
+        <item>FARMÁCIA SÃO JOÃO</item>
+        <item>FARMÁCIA POPULAR</item>
+        <item>OUTROS</item>
+
+    </string-array>
+
+
+    <string-array name="categorias">
+        <item>TV</item>
+        <item>FIXO</item>
+        <item>INTERNET</item>
+        <item>APARELHO</item>
+    </string-array>
+
+    <string-array name="listretorno">
+        <item>VENDA EFETIVADA</item>
+        <item>CLIENTE DESCONHECE INDICAÇÃO</item>
+        <item>CLIENTE SEM INTERESSE</item>
+        <item>INSUCESSO DE CONTATO</item>
+        <item>NUMERO INEXISTENTE</item>
+        <item>NEGOCIADO</item>
+    </string-array>
+
+
+</resources>
